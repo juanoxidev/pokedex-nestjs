@@ -9,6 +9,7 @@ export class Pokemon extends Document {
     @Prop({unique:true, index:true})
     name:string;
 
+    // el nombre y el id estan indexados, son de busqueda rapida.
     @Prop({unique:true, index:true})
     nro:number;
 
